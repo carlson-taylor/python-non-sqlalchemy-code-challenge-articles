@@ -131,4 +131,4 @@ class TestMagazine:
     def test_contributors_are_unique(self):
         """magazine contributors are unique"""
         author_1 = Author("Carry Bradshaw")
-        author
+    
