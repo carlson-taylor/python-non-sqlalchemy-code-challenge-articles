@@ -50,7 +50,7 @@ class Author:
         self.__class__.all.append(self)
 
     def articles(self):
-        return [article for article in Article.all if article.author is self]
+        return [article for article in Article.all if article.author is  self]
 
     def magazines(self):
         return list({article.magazine for article in Article.all if article.author is self})
