@@ -15,8 +15,8 @@ class Article:
     def title(self, title):
         if isinstance(title, str) and 5 <= len(title) <= 50:
             self._title = title
-        else:
-            raise ValueError("Title must be between 5 and 50 characters")
+        
+            
 
     @property
     def author(self):
